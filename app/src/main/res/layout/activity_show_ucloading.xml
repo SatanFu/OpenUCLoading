@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.satan.openucloading.RevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00bb9c">
+
+        <ImageView
+            android:id="@+id/iv_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/bg" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/iv_content"
+            android:padding="16dp"
+            android:text="人生，从某种意义上讲，就是选择与放弃。所有的聚散离合，都是上天的旨意。逢，是缘聚，离，是缘散，没办法，长时间的相聚，只怨命运如此，没缘分，永久牵手，只怪缘分如此，一切都是命运，一切都是天意，离开后，不怨，不恨，依然好好地铭记，期盼你，安好如初。"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <com.satan.openucloading.LoadingView
+            android:id="@+id/lv_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:view_color="#00bb9c"
+            app:view_distance="32dp"
+            app:view_radius="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lv_view"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="加载中..." />
+
+    </RelativeLayout>
+
+</com.satan.openucloading.RevealLayout>
