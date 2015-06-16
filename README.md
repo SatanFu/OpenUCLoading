@@ -1,5 +1,5 @@
 # OpenUCLoading
-仿打开UC是加载界面
+仿打开UC时的加载界面
 	
 该View是仿其他软件打开UC时的加载界面，效果如下
 
